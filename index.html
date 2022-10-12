@@ -3,13 +3,12 @@
 
 <head>
   <title>Simple Creative Portfolio 2022 | Work Page</title>
-  <meta name="description"
-    content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
+  <meta name="description" content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <meta property="og:image" content="screenshot.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -19,14 +18,12 @@
     <header class="hero-header">
       <ul class="branding-navigation">
         <li><a href="index.html" class="custom-navigation">Work</a></li>
-        <li class="logo"><a href="index.html"><img src="https://assets.codepen.io/316293/tools.svg" /></a></li>
+        <li class="logo"><a href="index.html"><img src="nisa-hansen-logo.svg" /></a></li>
         <li><a href="about.html" class="custom-navigation">About</a></li>
       </ul>
     </header>
     <div class="hero-headline-wrapper">
-      <h1 class="hero-headline stroke-shadow">Nisa Hansen is a designer who creates thoughtful and inspiring design
-        solutions that have some feel-good flair.</h1>
-      <figure class="toggleGhost hero-icon" id="btnGhost value=" Hide Ghost" onclick="ShowHideDiv(this)" />💙</figure>
+      <h1 class="hero-headline">Nisa Hansen is a designer who creates thoughtful and inspiring design solutions that have some feel-good flair.</h1> <figure class="toggleGhost hero-icon" id="btnGhost value="Hide Ghost" onclick="ShowHideDiv(this)" />💙</figure>
     </div>
     <footer class="hero-footer">
       <ul class="hero-footer-navigation">
@@ -41,28 +38,25 @@
         <li class="work-page-grid-item">
           <a href="project-1.html">
             <figure>
-              <img src="project-images/nisa-hansen-sugar-oat-ice-cream-branding-logo-01.png"
-                alt="Describe your project">
+              <img src="project-images/nisa-hansen-sugar-oat-ice-cream-branding-logo-01.png" alt="Describe your project">
             </figure>
           </a>
         </li>
         <li class="work-page-grid-item">
           <a href="project-1.html">
-            <figure>
-              <img src="project-images/nisa-hansen-sugar-oat-ice-cream-branding-packaging-hero-display-logo-02.jpg"
-                alt="Describe your project">
-            </figure>
-          </a>
+          <figure>
+            <img src="project-images/nisa-hansen-sugar-oat-ice-cream-branding-packaging-hero-display-logo-02.jpg" alt="Describe your project">
+          </figure>
+        </a>
         </li>
         <li class="work-page-grid-item"><a href="project-1.html">
-            <figure>
-              <img src="project-images/nisa-hansen-sugar-oat-ice-cream-branding-logo-01.png"
-                alt="Describe your project">
-            </figure>
-          </a>
+          <figure>
+            <img src="project-images/nisa-hansen-sugar-oat-ice-cream-branding-logo-01.png" alt="Describe your project">
+          </figure>
+        </a>
         </li>
-
-
+        
+         
       </ul>
     </section>
   </main>
@@ -78,53 +72,50 @@
       <h2>Awards &amp; Recognition</h2>
       <ul class="awards-list">
         <li class="award-item"><a href="#">Dean's List x1</a></li>
-
+                        
       </ul>
     </li>
     <li class="footer-item-3">
       <h2>Contact &amp; Social</h2>
       <ul class="socials-list">
         <li class="social-item"><a href="https://www.instagram.com/up_and_down_doodles/" target="_blank">Insta</a></li>
-        <li class="social-item"><a href="#" target="_blank">LinkedIn</a></li>
-        <li class="social-item"><a href="#">Behance</a></li>
+        <li class="social-item"><a href="#">LinkedIn</a></li>
+        <li class="social-item"><a href="#">Behance</a></li>                
       </ul>
-    </li>
+    </li>    
     <li class="footer-item-4">
       <p><a href="#top">Smooth scroll to the top</a></p>
       <p>&copy; 2022. Made with ❤ and CSS Grid by James Neufeld.</p>
     </li>
   </ul>
 
-  <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>
+    <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>  
 
-  <div id="ghostanimation" class="ghost"><img src="cactus.svg" /></div>
-  <script type="text/javascript">
-    function ShowHideDiv(btnGhost) {
+    <div id="ghostanimation" class="ghost"><img src="cactus.svg" /></div>
+    <script type="text/javascript">function ShowHideDiv(btnGhost) {
       var GhostStyle = document.getElementById("ghostanimation");
-      if (btnGhost.value == "Hide Ghost") {
-        GhostStyle.style.display = "none";
-        btnGhost.value = "Play Ghost";
+if (btnGhost.value == "Hide Ghost") {
+          GhostStyle.style.display = "none";
+          btnGhost.value = "Play Ghost";
       } else {
-        GhostStyle.style.display = "block";
-        btnGhost.value = "Hide Ghost";
+          GhostStyle.style.display = "block";
+          btnGhost.value = "Hide Ghost";
       }
-    }
-  </script>
+  }</script>   
   <script type="text/javascript">
-    myID = document.getElementById("myID");
+  myID = document.getElementById("myID");
 
-    var myScrollFunc = function () {
-      var y = window.scrollY;
-      if (y >= 800) {
+var myScrollFunc = function () {
+    var y = window.scrollY;
+    if (y >= 800) {
         myID.className = "bottomMenu show"
-      } else {
+    } else {
         myID.className = "bottomMenu hide"
-      }
-    };
+    }
+};
 
-    window.addEventListener("scroll", myScrollFunc);
-  </script>
-
+window.addEventListener("scroll", myScrollFunc);</script> 
+  
 </body>
 
 </html>
