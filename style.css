@@ -51,14 +51,14 @@ html {
   --primary-text-color: #222;
   --accent-color: #555;
   --hyperlink-color: #333;
-  --hyperlink-alternate-color: orangered;
+  --hyperlink-alternate-color: rgb(0, 85, 255);
   --hover-color: #111;
   --body-typeface: 'Montserrat', sans-serif;
   --heading-typeface: 'Montserrat', sans-serif;
  
   --background-color: #86b1a4;
-  --alt-background-color: black;
-  --text-selection-background-color: #555;
+  --alt-background-color: #F5F5F5;
+  --text-selection-background-color: #cfa8b8;
   --base-color: 0;
   --color-lightest: hsla(var(--base-color), 1%, 85%, 100%);
   --color-light: hsla(var(--base-color), 1%, 75%, 100%);
@@ -78,7 +78,7 @@ body {
 }
 
 ::selection {
-  background: hotpink;
+  background: #56776d;
 }
 
 /* Making all images responsive */
@@ -353,8 +353,8 @@ p {
 
 /* Sidebar */
 .project-aside {
-  width: 100%;
-  color: white;
+  width: 85%;
+  color: #333;
  
   padding: 1rem;
   display: flex;
