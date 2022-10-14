@@ -48,9 +48,9 @@ html {
 */
 
 :root {
-  --primary-text-color: #222;
-  --accent-color: #555;
-  --hyperlink-color: #333;
+  --primary-text-color: #333;
+  --accent-color: #86b1a4;
+  --hyperlink-color: rgb(23, 23, 23);
   --hyperlink-alternate-color: rgb(0, 85, 255);
   --hover-color: #111;
   --body-typeface: 'Montserrat', sans-serif;
